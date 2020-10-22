@@ -40,14 +40,14 @@ function App() {
                       <nav className="navigation-menu">
                           <ul className="list-nav">
                               <li>
-                                  <a href="#" className="nav-link">FUNCIONALIDADES</a>
+                                  <a href="#func" className="nav-link">FUNCIONALIDADES</a>
 
                               </li>
                               <li>
-                                  <a href="#" className="nav-link">CONTATO</a>
+                                  <a href="#contato" className="nav-link">CONTATO</a>
                               </li>
                               <li>
-                                  <a href="#" className="nav-link">
+                                  <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/t2software" className="nav-link">
                                       <FaFacebookSquare size="50" style={{ fill: 'orange' }}></FaFacebookSquare></a>
 
                               </li>
@@ -69,7 +69,7 @@ function App() {
                                       Inteligência Artificial
                   </h1>
               </div>
-          </div></div><div className="neovision">
+          </div></div><div id="func" className="neovision">
               <h1>NeoVision</h1>
               <h3>Lorem Ipsum é simplesmente uma simulação de texto da indústria
               t              ipográfica e de impressos, e vem sendo utilizado desde o século XVI,
@@ -88,7 +88,7 @@ embaralhou para fazer um livro de modelos de tipos.</h3>
               </h4>
           </div>
 
-          <div className="footer">
+          <div id="contato" className="footer">
               <h1>Quer conhecer mais sobre o Neovision?</h1>
           <Form></Form>
           </div></>
