@@ -1,0 +1,135 @@
+ /* * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #FFF;
+}
+
+:root {
+    --color-background-first: #8029A3;
+    --color-background-second: #3A0067;
+    font-size: 62.5%;
+}
+
+.container-wrapper {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(180deg, var(--color-background-first) 0%, var(--color-background-second) 100%) no-repeat;
+}
+
+.wrapper-header {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 70vw;
+    left: 0;
+    border: 1px solid #FFF;
+    background-color: aqua;
+    position: absolute;
+    display: none;
+} */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 1rem;
+}
+
+
+.screen-menu {
+    width: 100vw;
+}
+
+.menu {
+    width: 70vw;
+    height: 100vh;
+    /* background-color: #b83942; */
+    background: -webkit-radial-gradient(left, #6c0c16 0%, #7d1608 50%, #9c0c16 100%);
+    color: #FFF;
+    position: absolute;
+    left: -70vw;
+}
+
+.menu-move {
+    left: 0;
+}
+
+.list-nav {
+    padding: 1rem 0 0 0;
+}
+
+.link-nav {
+    color: #FFF;
+    padding: 1rem;
+    display: block;
+}
+
+.item-nav,
+.item-nav-second {
+    font-size: 1.2rem;
+}
+
+.item-nav:hover {
+    background-color: rgba(167, 38, 38, 0.5);
+}
+
+.icon {
+    width: 1.5rem;
+}
+
+.fa-chevron-circle-down {
+    padding-left: 1.5rem;
+}
+
+.item-nav-second a {
+    color: #FFF;
+    padding: 0 0 1rem 2.7rem;
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.item-nav-second a i {
+    padding-right: 0.8rem;
+}
+
+.content {
+    position: absolute;
+    left: 70vw;
+    height: 100vh;
+    width: 30vw;
+}
+
+.content::before {
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    opacity: .5;
+}
